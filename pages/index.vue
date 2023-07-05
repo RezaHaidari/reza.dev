@@ -33,8 +33,16 @@
 const { data } = useFetch("/api/data");
 let showDescription = ref(false);
 
+useSeoMeta({
+  title: "Reza Haidari's Website",
+  ogTitle: "Reza Haidari's Website",
+  description: "Reza Haidari Personal Website.",
+  ogDescription: 'Reza Haidari Personal Website.',
+  ogImage: 'https://reza.dev/logo.png',
+  twitterCard: 'summary_large_image',
+})
+
 onMounted(() => {
-  console.log("Hello");
   setTimeout(() => {
     showDescription.value = true;
   }, 2000);
