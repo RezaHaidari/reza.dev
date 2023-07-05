@@ -1,0 +1,26 @@
+[
+    {
+        "type": "resume",
+        "title": "Privatify VPN",
+        "techs": "Typescript, Nodejs, Nest.js, Vue, React",
+        "url": "https://Privatify.net"
+    },
+    {
+        "type": "resume",
+        "title": "Fandogh Cloud",
+        "techs": "Javscript, Typescript, Vue",
+        "url": "https://fandogh.cloud"
+    },
+    {
+        "type": "resume",
+        "title": "IPTVForest",
+        "techs": "Javscript, Typescript, React, Vue",
+        "url": "https://www.iptvforest.org/"
+    },
+    {
+        "type": "resume",
+        "title": "Salameno",
+        "techs": "Javscript, Typescript, Vue",
+        "url": "https://www.salameno.com/"
+    }
+]
